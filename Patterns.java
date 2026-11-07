@@ -1,5 +1,5 @@
 //Azariya Tefera
-//This is primrily review for w
+//This is a review for loops in java such as do, while and for loops. Each method is a different pattern made using the different types of loops. 
 public class Patterns {
 	// Precondition: rows is a positive integer.
 	// Postcondition: Prints a star pattern.
@@ -95,13 +95,13 @@ public class Patterns {
 		}
 
 	// Precondition: None.
-	// Postcondition: Prints the pyramid.
+	// Postcondition: Prints the different patterns.
 	public static void main(String[] args) {
-		//Patterns.stars(7);
-		//Patterns.triangle(9);
-		//System.out.println();
-		//Patterns.odds(9);
-		//Patterns.eo(15);
+		Patterns.stars(7);
+		Patterns.triangle(9);
+		System.out.println();
+		Patterns.odds(9);
+		Patterns.eo(9);
 		Patterns.pyramid(5);
 		
 	}
