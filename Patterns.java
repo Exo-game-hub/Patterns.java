@@ -4,7 +4,7 @@ public class Patterns {
 	// Precondition: rows is a positive integer.
 	// Postcondition: Prints a star pattern.
 	public static void stars(int rows) {
-		int i = 0;
+		int i = 1;
 		String star = "*";
 		while (rows >= i) {
 			System.out.println(star);
@@ -50,7 +50,7 @@ public class Patterns {
 		int i = rows;
 
 		String let = "O";
-		if (rows % 2 == 1) {
+		if (rows % 2 == 0) {
 			let = "E";
 		}
 		for (int num = 1; i >= num; num++) {
@@ -98,11 +98,11 @@ public class Patterns {
 	// Postcondition: Prints the different patterns.
 	public static void main(String[] args) {
 		Patterns.stars(7);
-		Patterns.triangle(9);
-		System.out.println();
-		Patterns.odds(9);
-		Patterns.eo(9);
-		Patterns.pyramid(5);
+		//Patterns.triangle(9);
+		//System.out.println();
+		//Patterns.odds(9);
+		//Patterns.eo(9);
+		//Patterns.pyramid(5);
 		
 	}
 
